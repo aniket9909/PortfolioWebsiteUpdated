@@ -40,8 +40,10 @@ ul li a{
     text-decoration: none;
     color: rgb(53, 53, 51);
 }
-.hero-img img{
-    /* margin-left: 30px; */
+.hero-img{
+   width: 150px;
+   margin-right: 50px;
+   margin-left: 20px;
 }
 label{
     margin-top: 10px;
@@ -76,4 +78,18 @@ label{
 .resume-title{
     font-size: 25px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title p{
+    color: rgb(71, 70, 70);
+    word-spacing: 4px;
+}
+.links li{
+    display: inline-flex;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 35px;
+}
+.links li a{
+    text-decoration: none;
+    color: inherit;
 }
